@@ -1,7 +1,7 @@
 $(function(){
 $('#button').click(function(){
 $.getJSON(
-  "http://www.reddit.com/r/showerthoughts.json",
+  "https://www.reddit.com/r/showerthoughts.json",
   function foo(data)
   {
     // $.each(
